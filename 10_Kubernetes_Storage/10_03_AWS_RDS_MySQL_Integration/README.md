@@ -70,6 +70,8 @@ This Security Group (`sg-092ff60d65289df59` in the example) belongs to your EKS 
     * **Source:** `10.0.0.0/16`
 * **Outbound rules:** Allow all (default)
 * **Create security group**
+  <img width="1092" height="381" alt="image" src="https://github.com/user-attachments/assets/49a81cc7-cd18-4887-b38a-d6cb65b20d2c" />
+
 
 > 💡 Using the **EKS Cluster Security Group** is the most secure option for production.
 > The CIDR-based rule (`10.0.0.0/16`) is fine for quick local lab testing.
